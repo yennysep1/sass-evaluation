@@ -63,12 +63,17 @@
 	background-color: rgba(11,0,0,0.2);
 	width: 100%;
 	bottom: 0%;
-	color: $fontblanc;
+
 
 	p{
 		line-height: 16px;
 		font-size: 12px;
+		padding: 5px 15px;
+		color: $fontblanc;
+	}
+	h6{
 		padding: 0px 15px;
+		color: $fontblanc;
 	}
 }
 

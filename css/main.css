@@ -6430,12 +6430,15 @@ nav {
   background-color: rgba(11, 0, 0, 0.2);
   width: 100%;
   bottom: 0%;
-  color: #fff;
   left: 0%; }
   .descripcion p {
     line-height: 16px;
     font-size: 12px;
-    padding: 0px 15px; }
+    padding: 5px 15px;
+    color: #fff; }
+  .descripcion h6 {
+    padding: 0px 15px;
+    color: #fff; }
 
 .titulo-rojo p {
   background-color: #ed4042;
