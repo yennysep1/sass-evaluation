@@ -1,0 +1,142 @@
+p{
+	@include parrafos;
+}
+
+#media{
+	margin-top: -30px;
+}
+
+.info{
+
+	i{
+		@include iconos;
+	}
+	h6{
+		@include hSeis;
+	}	
+	span{
+		@include estilosSpan;
+	}
+} 
+
+.row-info{
+	margin: -5px 0px;
+}
+
+
+.articulos{
+	span{
+		@include estilosSpan;
+	}
+}
+	hr{
+	@include lineas;
+}
+
+.h1{
+	border-bottom: 1px solid #ed4042;
+	height: 21px;
+	margin-bottom: 15px;
+
+	h1{
+		@include titulos;
+	}
+}
+
+
+.fa-facebook{
+	@include redes(#326eb7);
+}
+.fa-twitter{
+	@include redes(#17a8dd);
+}
+.fa-rss{
+	@include redes(#ff9104);
+}
+
+
+.slider-business{
+	background-image: url('../img/26.png');
+	height:25vh;
+	@include slider;
+
+	.flecha-izq{
+		@include rojo-slider(25px,50%);
+		left: 0%;
+	}
+	.flecha-der{
+		@include rojo-slider(25px,50%);
+		right: 0%;
+	}
+}
+.slider-sport{
+	background-image: url('../img/cuatro.png');
+	height:25vh;
+	@include slider;
+
+	.flecha-izq{
+		@include rojo-slider(25px,50%);
+		left: 0%;
+	}
+	.flecha-der{
+		@include rojo-slider(25px,50%);
+		right: 0%;
+	}
+}
+
+.collapsible{
+	border: none;
+	box-shadow: none;
+}
+
+.collapsible {
+	i{
+		@include iconosBgRed;
+		margin-top: 10px;
+	}
+}
+
+/* FACEBOOK  */
+
+.facebook{
+	a{
+		color: #4f4375;
+		font-weight: bold;
+	}
+	.btn{
+		background-color: transparent;
+		border: 2px solid #e0e0e0;
+		box-shadow: none;
+		font-size: 0.8em;
+		color: $fontDefect;
+		text-transform: lowercase;
+		border-radius: 10px;
+		padding: -5em 1em;
+	}
+	.face{
+		margin-top: 15px;
+	}
+	i{
+		font-size: 0.9em;
+		margin-right: 5px;
+		font-weight: 100;
+	}
+	.row-face{
+		margin-top: 30px;
+	}
+
+}
+
+footer{
+	a{
+		color: $fontDefect;
+		&:hover{
+			color: $colorPrinc;
+			font-weight: bold;
+		}
+	}
+	
+	.tweet a{
+		color: $colorPrinc;
+	}
+}

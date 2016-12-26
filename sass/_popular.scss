@@ -1,0 +1,45 @@
+
+.slider{
+	background-image: url('../img/1.png');
+	height:55vh;
+	@include slider;
+
+	.flecha-izq{
+		@include rojo-slider(25px,50%);
+		left: 0px;
+	}
+	.flecha-der{
+		@include rojo-slider(25px,50%);
+		right: 0px;
+	}
+}
+
+.descripcion{
+	@include descripciones;
+	left: 0%;
+	}
+
+.titulo-rojo p{
+	@include rojo-slider(20%,0%);
+	left: 0px;
+}
+
+.aside{
+
+	.aside-1{
+		background-image: url('../img/6.png');
+		@include bgPopular(30vh);
+	}
+
+	.aside-2{
+		background-image: url('../img/13.png');
+		@include bgPopular(22vh);
+	}
+
+	.aside-3{
+		background-image: url('../img/4.1.png');
+		@include bgPopular(22vh);
+	}
+
+}
+

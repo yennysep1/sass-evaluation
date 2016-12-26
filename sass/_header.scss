@@ -1,0 +1,65 @@
+nav{
+	background-color: transparent;
+	box-shadow: none;
+	line-height: 30px;
+	h1{
+	color: $fontDefect;
+	font-size: 1em;
+	}
+
+	.nav-wrapper i{
+	    @include iconosBgRed;
+	    margin-top: 0px;
+
+	}
+	
+	.nav .menu .button-collapse{
+		background-color: #fff;
+	}
+
+	.menu{
+		margin-top: 5em;
+		padding-left:$resetpx;
+		margin-left: $resetpx;
+		border-bottom: 1px solid $colorPrinc;
+		#nav-mobile{
+			padding: $resetpx;
+		}
+		ul li a:hover{
+			background-color: transparent;
+		}
+		.active{
+		border-bottom: $bordeBotton;	
+		}
+
+		ul li a{
+		color: $fontDefect;
+    	padding: $resetpx;
+    	margin-right: 30px;
+		}
+		ul a:hover{
+			background-color: transparent;
+			border-bottom: $bordeBotton;
+		}
+		.button-collapse{
+			background-color: transparent;
+		}
+
+	}
+	input[type=search]{
+		background-color: #fafafa;
+		border-bottom: $resetpx;
+		height: 2em;
+		margin:$resetpx;
+		color: $fontDefect;
+	}
+
+
+
+
+
+	
+
+}
+
+

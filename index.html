@@ -1,0 +1,833 @@
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>SASS</title>
+        <!--Import awesome Icon Font-->
+        <script src="https://use.fontawesome.com/7873633050.js"></script>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+<!--HEADER -LOGO -NAVBAR-->
+    <header>
+      <div class="container">
+        <nav class="nav-extended">
+          <div class="nav-wrapper">
+            <div class="row logo">
+                <a href="#" class="brand-logo"><h1>NEWS<span>.</span></h1></a>
+            </div>
+            <div class="row menu">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="left hide-on-med-and-down col m9">
+                  <li><a href="#" class="active">WORLD.</a></li>
+                  <li><a href="#">BUSINESS.</a></li>
+                  <li><a href="#">POLITICS.</a></li>
+                  <li><a href="#">SPORTS.</a></li>
+                  <li><a href="#">HEALTH.</a></li>
+                  <li><a href="#">SCIENCES.</a></li>
+                  <li><a href="#">SPOTLIGHT.</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                  <li><a href="#">WORLD.</a></li>
+                  <li><a href="#">BUSINESS.</a></li>
+                  <li><a href="#">POLITICS.</a></li>
+                  <li><a href="#">SPORTS.</a></li>
+                  <li><a href="#">HEALTH.</a></li>
+                  <li><a href="#">SCIENCES.</a></li>
+                  <li><a href="#">SPOTLIGHT.</a></li>
+                </ul>
+                <!--INPUT SEARCH-->
+                <div class="search col s6 col m2">
+                   <input type="search" placeholder=" search">
+                </div>
+                <!--ICON SEARCH-->
+                <div class=" col 2">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+ <!--   <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 col m7 slider">
+            <div class="flecha-izq"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+            <div class="flecha-der"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            <img src="img/1.png" class="responsive-img" alt="">
+            <div class="bg-p">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+          </div>
+          <div class="col s12 m5">
+            <div class="row">
+              <div class="col s12">
+                <img src="img/1.png" class="responsive-img" alt="">
+                <div class="bg-p">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            <div class="row">
+              <div class="col s12 col m6">
+                <img src="img/1.png" class="responsive-img" alt="">
+                <div class="bg-p">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+              <div class="col s12 col m6">
+                <img src="img/1.png" class="responsive-img" alt="">
+                <div class="bg-p">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+<!--SECTION PRINCIPAL  POPULAR-->
+
+   <section id="popular">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 col m7 slider">
+            <div class="titulo-rojo">
+              <p>Popular.</p> 
+            </div>
+            <div class="flecha-izq"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+            <div class="flecha-der"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            <div class="descripcion">
+              <h6><strong>Awesome Wordpress Theme.</strong></h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+          </div>
+          <div class="col s12 col m5 aside">
+            <div class="row">
+              <div class="col s12 aside-1">
+                <div class="titulo-rojo">
+                  <p>Popular.</p>
+                </div>
+                <div class="descripcion">
+                  <h6>Awesome Wordpress Theme.</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m6 aside-2">
+                <div class="descripcion">
+                <h6>Awesome Wordpress Theme.</h6>
+                </div>
+              </div>
+              <div class="col m6 aside-3">
+                <div class="descripcion">
+                  <h6>Awesome Wordpress Theme.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--SECCION MEDIA PAGINA-->
+
+    <section id="media">
+      <div class="container">
+        <div class="row">
+    <!--ROW 8 COLUMNAS CENTRAL-->
+          <div class="col s12 col m8">
+          <!--PRIMER ROW POPULAR NEWS-->
+            <div class="row">
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="h1">
+                    <h1>POPULAR NEWS.</h1>
+                  </div>
+                  <div class="col s6">
+                    <img src="img/uno.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+        <!--MITAD PRIMER DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="h1">
+                    <h1>HOT NEWS.</h1>
+                  </div>
+                  <div class="col s6">
+                    <img src="img/dos.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+     <!--FIN PRIMER ROW POPULAR NEWS-->
+
+     <!--SEGUNDO ROW POPULAR NEWS-->
+            <div class="row">
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6">
+                    <img src="img/tres.png" class="responsive-img" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+        <!--MITAD DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6">
+                    <img src="img/cuatro.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+     <!--FIN SEGUNDO ROW POPULAR NEWS-->
+
+     <!--SEGUNDO ROW POPULAR NEWS-->
+            <div class="row">
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6">
+                    <img src="img/cinco.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+        <!--MITAD DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 ">
+                    <img src="img/seis.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6  info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+     <!--FIN TERCER ROW POPULAR NEWS-->
+
+     <!--CUARTO ROW-->
+            <div class="row">
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 news">
+                    <img src="img/siete.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 news info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--MITAD DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row">
+                  <div class="col s6 col m6 news">
+                    <img src="img/ocho.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 news info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+     <!--FIN CUARTO ROW POPULAR NEWS-->
+
+     <!--CONTENIDO LIFE STYLE-->
+            <div class="h1">
+              <h1>LIFE STYLE.</h1>
+            </div>
+            <div class="row">
+              <div class="col s12 m6">
+                <img src="img/24.png" class="responsive-img" alt="">
+                <div class="col s12 articulos">
+                  <h6><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget.</strong></h6>
+                  <span><strong>26 mayo, 2013 // World News // No comments</strong></span>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor</p>
+                </div>
+              </div>
+              <div class="col s12 m6">
+              <!--PRIMER ROW IMG LIFE STYLE-->
+                <div class="row row-info">
+                  <div class="col s6 ">
+                    <img src="img/13.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <!--SEGUNDO ROW IMG LIFE STYLE-->
+                <div class="row row-info">
+                  <div class="col s6">
+                    <img src="img/14.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <!--TERCER ROW IMG LIFE STYLE-->
+                <div class="row row-info">
+                  <div class="col s6">
+                    <img src="img/15.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <!--CUARTO ROW IMG LIFE STYLE-->
+                <div class="row row-info">
+                  <div class="col s6 ">
+                    <img src="img/16.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--CONTENIDO WORLD NEWS-->
+            <div class="h1">
+              <h1>WORLD NEWS.</h1>
+            </div>  
+            <div class="row">
+                <div class="col s12 m6">
+                  <img src="img/5.png" class="responsive-img" alt="">
+                </div>
+                <div class="col s12 m6 articulos">               
+                  <h6><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget.</strong></h6>
+                  <span><strong>26 mayo, 2013 // World News // No comments</strong></span>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col s12 col m6">
+              <!--PRIMER ROW IMG WORLD NEWS-->
+                <div class="row row-info">
+                  <div class="col s6 col m6 news">
+                    <img src="img/18.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 news info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <!--MITAD DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 news">
+                    <img src="img/17.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 news info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 col m6">
+              <!--SEGUNDO ROW IMG WORLD NEWS-->
+                <div class="row row-info">
+                  <div class="col s6 col m6 news">
+                    <img src="img/19.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 news info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--MITAD DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 news">
+                    <img src="img/dos.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 news info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+    <!--CONTENIDO BUSSINES-->
+            <div class="row">
+              <div class="col s12 m6">
+                 <div class="h1">
+                    <h1>BUSINESS.</h1>
+                 </div> 
+                 <div class="col s12 slider-business">
+                    <div class="flecha-izq"><</div>
+                    <div class="flecha-der">></div>
+                </div>
+                <div class="col s12 articulos">               
+                  <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h6>
+                  <span>26 mayo, 2013 // World News // No comments</span>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </div>
+              </div>
+              <div class="col s12 m6">
+                 <div class="h1">
+                    <h1>SPORTS.</h1>
+                 </div> 
+                 <div class="col s12 slider-sport">
+                    <div class="flecha-izq"><</div>
+                    <div class="flecha-der">></div>
+                </div>
+                <div class="col s12 articulos">               
+                  <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h6>
+                  <span>26 mayo, 2013 // World News // No comments</span>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </div>
+              </div>
+            </div>
+        <!--PRIMER ROW BUSINESS Y SPORT-->
+              <div class="row">
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 ">
+                    <img src="img/20.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+        <!--MITAD DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 ">
+                    <img src="img/23.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6  info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+        <!--SEGUNDO ROW BUSINESS Y SPORT-->
+            <div class="row">
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 ">
+                    <img src="img/21.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6 info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--MITAD DEL ROW-->
+              <div class="col s12 col m6">
+                <div class="row row-info">
+                  <div class="col s6 col m6 ">
+                    <img src="img/22.png" class="responsive-img" alt="">
+                  </div>
+                  <div class="col s6 col m6  info">
+                    <span><strong>26 mayo, 2013</strong></span>
+                    <p>Lorem ipsum dolor sit amet. </p>
+                    <div> 
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                      <i class="large material-icons">grade</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--FIN ROW  BUSINESS Y SPORT-->
+           </div>
+    <!--FIN ROW 8 COLUMNAS CENTRAL-->
+
+    <!--ROW LATERAL 4 COLUMNAS-->
+        <!--CONNECTED-->
+          <div class="col s12 col m4">
+            <div class="h1">
+              <h1>CONNECTED.</h1>
+            </div>
+            <div class="row connected center-align">
+              <div class="col s4">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <p>6.800</p>
+                <p><em>Funs.</em></p>
+              </div>
+              <div class="col s4">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <p>16.800</p>
+                <p><em>Followers.</em></p>
+              </div>
+              <div class="col s4">
+                <a href=""><i class="fa fa-rss" aria-hidden="true"></i></a>
+                <p>6.800</p>
+                <p><em>Subscribers.</em></p>
+              </div>
+            </div>
+          <!--VIDEO VIMEO-->
+            <div class="h1">
+              <h1>VIMEO VIDEOS.</h1>
+            </div>
+            <div>
+                <iframe src="https://player.vimeo.com/video/184380829?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>      
+        <!--ADD SPOT-->
+            <div class="h1">
+              <h1>ADD SPOT.</h1>
+            </div>
+            <div class="col s12 m6">
+              <img src="img/spot1.png" class="" alt="">
+              <img src="img/spot2.png" class="" alt="">
+            </div>
+            <div class="col s12 m6">
+              <img src="img/spot3.png" class="" alt="">
+              <img src="img/spot4.png" class="" alt="">
+            </div>
+        <!--RECENT POPULAR COMMENT-->
+              <nav class="nav-extended">
+                <div class="nav-wrapper">
+                  <div class="row menu">
+                      <ul>
+                      <li><a href="#" class="active">WORLD.</a></li>
+                      <li><a href="#">BUSINESS.</a></li>
+                      <li><a href="#">POLITICS.</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="col s12 news info">
+                <span><strong>26 mayo, 2013</strong></span>
+                <p>Lorem ipsum dolor sit amet. </p>
+                <div> 
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                </div>
+              </div>
+              <hr>
+              <div class="col s12 news info">
+                <span><strong>26 mayo, 2013</strong></span>
+                <p>Lorem ipsum dolor sit amet. </p>
+                <div> 
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                </div>
+              </div>
+              <hr>
+              <div class="col s12 news info">
+                <span><strong>26 mayo, 2013</strong></span>
+                <p>Lorem ipsum dolor sit amet. </p>
+                <div> 
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                </div>
+              </div>
+              <hr>
+              <div class="col s12 news info">
+                <span><strong>26 mayo, 2013</strong></span>
+                <p>Lorem ipsum dolor sit amet. </p>
+                <div> 
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                  <i class="large material-icons">grade</i>
+                </div>
+              </div>
+        <!--ACORDION-->
+             <div class="col s12">
+                <div class="h1">
+                  <h1>ACCORDION.</h1>
+                </div>
+                 <ul class="collapsible" data-collapsible="accordion">
+                  <li>
+                    <div class="collapsible-header active info"><i class="fa fa-plus" aria-hidden="true"></i><span>Poserue Clubre<span></div>
+                    <div class="collapsible-body info"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div>
+                  </li>
+                  <li>
+                     <div class="collapsible-header info"><i class="fa fa-plus" aria-hidden="true"></i><span>Poserue Clubre</span></div>
+                    <div class="collapsible-body info"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header info"><i class="fa fa-plus" aria-hidden="true"></i><span>Poserue Clubre</span></div>
+                    <div class="collapsible-body info"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div>
+                  </li>
+                </ul>
+              </div>
+        <!--FACEBOOK-->
+            <div class="col s12 facebook">
+              <div class="h1">
+                <h1>FACEBOOK.</h1>
+              </div>
+              <div class="row">
+                <div class="col s6">
+                  <img src="img/evanto.png" class="responsive-img" alt="">
+                </div>
+                 <div class="col s6 face">
+                  <a href="#">EVANTO</a>
+                  <a class="waves-effect waves-light btn"><i class="fa fa-check" aria-hidden="true"></i>like</a> 
+                  You Like This.
+                </div>
+              </div>
+              <hr>
+              <div>
+                12,879 people like EVANTO
+              </div>
+              <div class="row row-face">
+                <div class="col s4">
+                  <img src="img/3.png" class="responsive-img" alt="">
+                  <p>Nicol</p>
+                </div>
+                 <div class="col s4">
+                  <img src="img/3.png" class="responsive-img" alt="">
+                  <p>Nicol</p>
+                </div>
+                 <div class="col s4">
+                  <img src="img/3.png" class="responsive-img" alt="">
+                  <p>Nicol</p>
+                </div>
+              </div>
+              <div class="row row-face">
+                <div class="col s4">
+                  <img src="img/3.png" class="responsive-img" alt="">
+                  <p>Nicol</p>
+                </div>
+                 <div class="col s4">
+                  <img src="img/3.png" class="responsive-img" alt=""><img src="" alt="">
+                  <p>Nicol</p>
+                </div>
+                 <div class="col s4">
+                  <img src="img/3.png" class="responsive-img" alt="">
+                  <p>Nicol</p>
+                </div>
+              </div>
+              <hr>
+              <div>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                Facebook social Plugins
+              </div>
+            </div>
+      <!--FIN LATERAL 4 COLUMNAS-->
+        </div>
+      </div>
+    </section>
+<!--FIN SECCION MEDIA PAGINA-->
+<!--PIE DEPAGINA-->
+    <footer>
+      <div class="container">
+        <div class="row">
+        <!--TWEET RECENT-->
+          <div class="col s12 col m3 tweet">
+                <div class="h1">
+                  <h1>RECENT TWEET.</h1>
+                </div>
+                <div>
+                  <span>@news.</span>
+                  <p>Photoshop CS6 magic - CSSsor</p>
+                  <a href="http://yoursite.com">http://yourcite.com</a>
+                  <p>26 may. 2013.</p>
+                </div>
+                <div>
+                  <span>@news.</span>
+                  <p>Photoshop CS6 magic - CSSsor</p>
+                  <a href="http://yoursite.com">http://yourcite.com</a>
+                  <p>26 may. 2013.</p>
+                </div>
+          </div>
+          <!--NAVIGATION-->
+          <div class="col s12 col m2">
+              <div class="h1">
+                <h1>NAVIGATION.</h1>
+              </div>
+              <div>
+                <ul>
+                  <li><a href="">> WORLD.</a></li>
+                  <li><a href="">> BUSINESS.</a></li>
+                  <li><a href="">> POLITICS.</a></li>
+                  <li><a href="">> SPORTS.</a></li>
+                  <li><a href="">> HEALTH.</a></li>
+                  <li><a href="">> SCIENCES.</a></li>
+                  <li><a href="">> SPOTLIGHT.</a></li>
+                </ul>
+              </div>
+          </div>
+          <!--FLICKR-->
+          <div class="col s12 col m4">
+              <div class="h1">
+                <h1>FLICKR IMAGE.</h1>
+              </div>
+              <div class="row">
+                <a href="#"><img src="img/flickr1.png" class="responsive-img col s4" alt=""></a>
+                <a href="#"><img src="img/flickr2.png" class="responsive-img col s4" alt=""></a>
+                <a href="#"><img src="img/flickr3.png" class="responsive-img col s4" alt=""></a>
+              </div>
+              <div class="row">
+                <a href="#"><img src="img/flickr4.png" class="responsive-img col s4" alt=""></a>
+                <a href="#"><img src="img/flickr5.png" class="responsive-img col s4" alt=""></a>
+                <a href="#"><img src="img/flickr6.png" class="responsive-img col s4" alt=""></a>
+              </div>
+          </div>
+          <!--ABOUT-->
+          <div class="col s12 col m3">
+              <div class="h1">
+                <h1>ABOUT.</h1>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
